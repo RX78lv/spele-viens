@@ -1,2 +1,2 @@
-# spele-viens
-ghjgfkkkkkkk
+# Spēle
+Game is played via.. nothing as of now.
