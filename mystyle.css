@@ -1,4 +1,8 @@
 table, th, td {
   border: 1px solid;
   border-collapse: collapse;
+  font-weight: normal;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
