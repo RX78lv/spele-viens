@@ -12,9 +12,21 @@
 </nav>
 </header>
 <main>
-    <div id="spele"></div>
+    <hr>
+    <p></p>
+<div id="menu"></div>
+<button id="start">Sākt</button>
+<div id="game">
+    <p>Līmenis: <span id="score">0</span></p>
+    <p>Spēks: <span id="score">0</span></p>
+    <p>Harizma: <span id="score">0</span></p>
+    <p>Inteliģence: <span id="score">0</span></p>
+    <p>Dzīvība: <span id="score">0</span></p>
+    <!--Tādēļ, ka spēle lielākoties balstās uz UI elementiem, izvēlos neizmantot Canvas elementu. Priekš spēles UI elementiem, es izmantošu CSS grid konteineri, bet pie tā ķeršos, kad sāksim tēmu par HTML.-->
+</div>
+<hr>
     <h2>Tirgus analīze</h2>
-<table>
+<table style="width:75%">
 <tr><th>Kritērijs</th><th>1. spēle</th><th>2. spēle</th><th>3. spēle</th></tr>
 <tr><th>Nosaukums</th><th>dead_center</th><th>Birds With Guns</th><th>Porklike</th></tr>
 <tr><th>Vadība</th><th>Klaviatūra</th><th>Klaviatūra & Pele</th><th>Klaviatūra</th></tr>
@@ -23,7 +35,7 @@
 <tr><th>Vājās Puses</th><th>Ļoti vienkārša, ļoti vienkāršas grafikas.</th><th>Ļoti grūta, daudziem pārāk ātra spēles darbība.</th><th>Grūta, lēna, vienkāršas grafikas.</th></tr>
 
 </table>
-<div id="menu"></div>
+<hr>
 <h2>Spēles koncepcija</h2>
 <p>Spēle izmanto standartus RPG elementus, spēlētājs izvēlas varoņa statistikas un lomu. Paša spēlē notiek kustoties caur procedurāli-ģenerētu karti. Katrā kartes istabā notiek randomā-izvēlēts notikums, piem. monstru uzbrukums, tirgotājs, slazds vai bedre, kurai vajag pārlekt. Interakciju ar šiem elementiem ietekmētu statistikas, piem. inteliģence lai pamanītu slazdus, atlētika lai pārlektu bedrei, vai harizma lai veiktu tirzniecību ar tirgotāju.</p>
 <h3>Mērķauditorija</h3>
@@ -48,7 +60,14 @@
     <li>Inkrementāla "clicker" spēle.</li>
    <li>Vienkārša "runner" stila spēle.</li>
 </ul>
+<div id="spele"></div>
+<hr>
 </main>
-<footer id="autors"><p>Autors: [N Jevdokimovs]</p></footer>
+<footer id="autors"><p>Autors: [N Jevdokimovs]</p>
+    <img src="goon.png" alt="Spēles ekrāna skice" width="400" height="300">
+    <br>
+        <img src="endscreen.png" alt="Spēles ekrāna skice" width="400" height="300">
+        <p>Ekrāns parādas, kad spēlētājs zaudē visus savus dzīvības punktus.</p>
+</footer>
 </body>
 </html>
