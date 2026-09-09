@@ -1,5 +1,5 @@
 table, th, td {
-  border: 1px solid;
+  border: 2px solid;
   border-collapse: collapse;
   font-weight: normal;
 }
@@ -10,7 +10,9 @@ body {
 }
 bold {
   font-weight: bold;
+  color: #FFB142;
   }
   h1 { color: #FFB142; text-align: center; }
   izcelts { background-color: #393E46; padding: 12px; border-radius: 6px; }
-  h2 { color: #FFB142; text-align: center; }
+  h2 { color: #FFB142;}
+  h3 { color: #FFB142;}
